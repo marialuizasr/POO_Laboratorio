@@ -11,9 +11,9 @@ public class Exercicio4 {
         do{
             senhaFornecida = input.nextLine();
             if(!(senhaFornecida.equals(senhaCorreta))){
-                System.out.println("Senha incorreta, digite novamente:");
+                System.out.println("Senha Invalida");
             }
-            else System.out.println("Senha correta!");
+            else System.out.println("Acesso Permitido");
         }while(!(senhaFornecida.equals(senhaCorreta)));
     }
 }
